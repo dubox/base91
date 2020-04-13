@@ -73,10 +73,10 @@ var base91 = (function(){
         },
 
 
-        md_encode:function(str){
+        mb_encode:function(str){
             return this.encode(escape(str));
         },
-        md_decode:function(str){
+        mb_decode:function(str){
             return unescape(this.decode(str));
         }
     };
